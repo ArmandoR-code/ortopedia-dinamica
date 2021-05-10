@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.navbar-brand {
+    width: 70px;
+}
+.navbar-brand img {
+    width: 60%;
+}
+.dropdown-menu {
+    background-color: #d0e7ff;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: #d0e7ff;
+}
