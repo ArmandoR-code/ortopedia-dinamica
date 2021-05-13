@@ -12,13 +12,26 @@
 .dropdown-menu {
     background-color: #d0e7ff;
 }
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.card .pic {
+    flex: 1;
+}
+.card .price{
+    flex:1;
+    justify-content: center;
+}
 .footer {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
     position:fixed;
     bottom: 0;
     width: 100%;
-    padding: 20px;
     background-color: #d0e7ff;
+}
+.footer a {
+    color: black;
 }
