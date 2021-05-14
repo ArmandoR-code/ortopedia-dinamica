@@ -1,0 +1,8 @@
+@use 'global' as *;
+
+.card .price h2 {
+    @extend %font_h2
+}
+.card .price h4 {
+    @extend %font-h4
+}

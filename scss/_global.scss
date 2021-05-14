@@ -1,0 +1,13 @@
+//font
+$f-size-h2: 23px;
+$f-weight-h2: 600;
+$f-size-h4:20px;
+
+//placeholder_font
+%font_h2 {
+    font-size: $f-size-h2;
+    font-weight: $f-weight-h2;
+}
+%font-h4 {
+    font-size: $f-size-h4;
+}
