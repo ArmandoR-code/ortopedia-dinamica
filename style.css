@@ -4,10 +4,10 @@
     border: 0;
 }
 .navbar-brand {
-    width: 70px;
+    width: 45px;
 }
 .navbar-brand img {
-    width: 60%;
+    width: 100%;
 }
 .dropdown-menu {
     background-color: #d0e7ff;
