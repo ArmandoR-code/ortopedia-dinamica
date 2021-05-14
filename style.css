@@ -12,22 +12,41 @@
 .dropdown-menu {
     background-color: #d0e7ff;
 }
+.contacto a {
+    color: green;
+}
+.form-control {
+    width: 60%;
+}
+.carousel-inner {
+    padding: 0 10% 0 10%;
+}
 .card {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
 .card .pic {
     flex: 1;
 }
 .card .price{
     flex:1;
-    justify-content: center;
 }
 .footer {
     display: none;
 }
 @media (min-width: 1025px) {
+    .card .price h2 {
+        font-size: 2rem;
+        line-height: 1.5;
+    }
+    .card .price h4 {
+        font-size: 25px;
+        line-height: 1.5;
+    }
+    .hide {
+        display: none;
+    }
     .footer {
         display: flex;
         justify-content: space-evenly;
@@ -41,5 +60,12 @@
     }
     .footer a {
         color: green;
+    }
+}
+@media (min-width: 768px) {
+    .card {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
     }
 }
