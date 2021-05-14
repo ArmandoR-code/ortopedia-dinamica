@@ -25,13 +25,21 @@
     justify-content: center;
 }
 .footer {
-    display: flex;
-    justify-content: space-between;
-    position:fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: #d0e7ff;
+    display: none;
 }
-.footer a {
-    color: black;
+@media (min-width: 1025px) {
+    .footer {
+        display: flex;
+        justify-content: space-evenly;
+        position:fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: #d0e7ff;
+    }
+    .footer pre {
+        font-size: 12px;
+    }
+    .footer a {
+        color: green;
+    }
 }
