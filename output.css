@@ -5,6 +5,11 @@
   border: 0;
 }
 
+h3 {
+  font-size: 1.5rem;
+  margin-left: 10px;
+}
+
 .navbar-brand {
   width: 45px;
 }
@@ -51,6 +56,17 @@
 .item {
   text-align: center;
 }
+.item h4 {
+  font-size: 1.3rem;
+}
+.item h5 {
+  font-size: 1.1rem;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.item figure img {
+  width: 20%;
+}
 
 .form-control {
   width: 60%;
@@ -61,6 +77,11 @@
 }
 
 @media (min-width: 1025px) {
+  h3 {
+    margin-left: 20px;
+    font-size: 2rem;
+  }
+
   .product-items {
     display: grid;
     grid-template: repeat(2, 1fr)/repeat(3, 1fr);
