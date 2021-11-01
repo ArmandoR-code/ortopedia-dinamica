@@ -1,5 +1,5 @@
 # ignorar archivos ofmáticos
 Inventario/
-# ignorar imagenes dentro de la carpeta pics
-pics/*
+# ignor carpeta de imagenes
+pics/
 
